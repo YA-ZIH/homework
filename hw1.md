@@ -2,26 +2,22 @@ Question 2:
 
 Determine the entropy of above example (question 1), if the probability of above messages (in question 1) are equally.
 
-Ans:
-	if message probability is 1/2
-	H = (1/2)log<sub>2</sub>(2) + (1/2)log<sub>2</sub>(2) + (1/2)log<sub>2</sub>(2) + (1/2)log<sub>2</sub>(2) <br>
-	  = 1/2 + 1/2 + 1/2 + 1/2 <br>
-	  = 2 (bits/message).
-
-	if message probability is 1/8
-	 H = (1/8)log<sub>2</sub>(8) + (1/8)log<sub>2</sub>(8) + (1/8)log<sub>2</sub>(8) + (1/8)log<sub>2</sub>(8) <br>
-	   = 3/8 + 3/8 + 3/8 + 3/8 <br>
-	   = 3/2 (bits/message).
-
-	if message probability is 1/8
-	 H = (1/8)log<sub>2</sub>(8) + (1/8)log<sub>2</sub>(8) + (1/8)log<sub>2</sub>(8) + (1/8)log<sub>2</sub>(8) <br>
-	   = 3/8 + 3/8 + 3/8 + 3/8 <br>
-	   = 3/2 (bits/message).
-
-	if message probability is 1/4
-	 H = (1/4)log<sub>2</sub>(4) + (1/4)log<sub>2</sub>(4) + (1/4)log<sub>2</sub>(4) + (1/4)log<sub>2</sub>(4) <br>
-	   = 1/2 + 1/2 + 1/2 + 1/2 <br>
-	   = 2 (bits/message).
-
-	  average: (2 (bits/message) + 3/2 (bits/message) + 3/2 (bits/message) + 2 (bits/message))/4 <br>
+Ans:  
+if message probability is 1/2
+H = (1/2)log<sub>2</sub>(2) + (1/2)log<sub>2</sub>(2) + (1/2)log<sub>2</sub>(2) + (1/2)log<sub>2</sub>(2) <br>  
+= 1/2 + 1/2 + 1/2 + 1/2 <br>  
+= 2 (bits/message).  
+if message probability is 1/8  
+H = (1/8)log<sub>2</sub>(8) + (1/8)log<sub>2</sub>(8) + (1/8)log<sub>2</sub>(8) + (1/8)log<sub>2</sub>(8) <br>  
+= 3/8 + 3/8 + 3/8 + 3/8 <br>  
+= 3/2 (bits/message).  
+if message probability is 1/8  
+H = (1/8)log<sub>2</sub>(8) + (1/8)log<sub>2</sub>(8) + (1/8)log<sub>2</sub>(8) + (1/8)log<sub>2</sub>(8) <br>  
+= 3/8 + 3/8 + 3/8 + 3/8 <br>  
+= 3/2 (bits/message).  
+if message probability is 1/4  
+H = (1/4)log<sub>2</sub>(4) + (1/4)log<sub>2</sub>(4) + (1/4)log<sub>2</sub>(4) + (1/4)log<sub>2</sub>(4) <br>  
+= 1/2 + 1/2 + 1/2 + 1/2 <br>  
+= 2 (bits/message).  
+average: (2 (bits/message) + 3/2 (bits/message) + 3/2 (bits/message) + 2 (bits/message))/4 <br>  
 			   =7/4 (bits/message).
