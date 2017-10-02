@@ -1,5 +1,5 @@
 Q3:Use LZW algorithm to encode "abcabcabcabcabcabcabc|abcabcabcabcabc".
-Current	      Next    	Output	     Add to dictionay    	  Comments
+Current	      Next    	Output	    Add to dictionay    	Comments
 a 97	      b 98	      a 97	          ab 256	          'ab' not exist, add it to table
 b 98    	  c 99	      b 98	          bc 257	          'bc' not exist, add it to table
 c 99	      a 97	      c 99	          ca 258	          'ca' not exist, add it to table
