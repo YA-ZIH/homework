@@ -7,6 +7,7 @@ if message probability is 1/2
 H = (1/2)log<sub>2</sub>(2) + (1/2)log<sub>2</sub>(2) + (1/2)log<sub>2</sub>(2) + (1/2)log<sub>2</sub>(2) <br>
 = 1/2 + 1/2 + 1/2 + 1/2 <br>
 = 2 (bits/message).  <br>
+
 if message probability is 1/8  
 H = (1/8)log<sub>2</sub>(8) + (1/8)log<sub>2</sub>(8) + (1/8)log<sub>2</sub>(8) + (1/8)log<sub>2</sub>(8) <br>
 = 3/8 + 3/8 + 3/8 + 3/8 <br>
